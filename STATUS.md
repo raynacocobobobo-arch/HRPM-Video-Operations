@@ -22,12 +22,12 @@ Updated: 2026-09-02
 
 ## Implementation packages
 
-- [ ] Package 1: Local foundation
-- [ ] Package 2: Domain and workflow
-- [ ] Package 3: Scheduling service
-- [ ] Package 4: Chinese operational interface
-- [ ] Package 5: Migration and go-live
-- [ ] Optional post-v1: DeepSeek assistant
+- [ ] [Package 1: Local foundation](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/1)
+- [ ] [Package 2: Domain and workflow](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/2)
+- [ ] [Package 3: Scheduling service](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/3)
+- [ ] [Package 4: Chinese operational interface](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/4)
+- [ ] [Package 5: Migration and go-live](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/5)
+- [ ] [Optional post-v1: DeepSeek assistant](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/6)
 
 ## Immediate next action
 
@@ -37,4 +37,3 @@ On the new Mac, clone this repository and run only read-only environment checks.
 
 - Insufficient free disk space for the full stack and safe build/upgrade headroom.
 - No formal OpenProject/Timefold runtime was installed.
-

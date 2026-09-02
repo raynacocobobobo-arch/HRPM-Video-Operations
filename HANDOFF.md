@@ -105,6 +105,19 @@ Run the packages sequentially. Each package has its own plan, tests, commits, an
 
 The controlling roadmap is [2026-09-02-video-operations-program-roadmap.md](docs/superpowers/plans/2026-09-02-video-operations-program-roadmap.md).
 
+### GitHub task queue
+
+Execute these issues in order:
+
+1. [Package 1: local foundation](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/1)
+2. [Package 2: domain and workflow](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/2)
+3. [Package 3: Timefold scheduling service](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/3)
+4. [Package 4: Chinese operational interface](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/4)
+5. [Package 5: migration and local go-live](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/5)
+6. [Deferred: optional DeepSeek assistant](https://github.com/raynacocobobobo-arch/HRPM-Video-Operations/issues/6)
+
+Do not start issue 6 as part of version 1. Each issue's stop gate must be satisfied before opening implementation work on the next package.
+
 ## 7. New Mac resume procedure
 
 ### 7.1 Clone and inspect
@@ -181,4 +194,3 @@ Timefold remains the deterministic scheduling engine. DeepSeek is a text assista
 ## 11. Definition of completion
 
 The system is not complete until all nine completion conditions in the program roadmap pass, including clean-checkout tests, whole-plan stale-safe apply, manual scheduling fallback, idempotent migration, verified second-volume backup, and isolated restore drill.
-
